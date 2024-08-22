@@ -91,7 +91,8 @@ document.addEventListener('DOMContentLoaded', function() {
         "https://images8.alphacoders.com/133/1336966.jpeg",
         "https://wallpapers.com/images/featured/minimalist-7xpryajznty61ra3.jpg",
         "https://images.squarespace-cdn.com/content/v1/5fe4caeadae61a2f19719512/ad01ceaa-b929-4516-a1fe-a84f1cf1fe34/Mountain+%26+River+4k",
-        "https://cdn.hero.page/wallpapers/abef7a18-2e69-46e2-86a6-c1ba351c3101-nature's-geometry-minimalist-mountain-art-wallpaper-2.png"
+        "https://cdn.hero.page/wallpapers/abef7a18-2e69-46e2-86a6-c1ba351c3101-nature's-geometry-minimalist-mountain-art-wallpaper-2.png",
+        "https://cdn.pixabay.com/photo/2021/07/15/08/43/abstract-6467845_1280.png"
     ];
 
     // URL de la imagen de fondo predeterminada
