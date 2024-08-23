@@ -21,6 +21,17 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 
+    if ('serviceWorker' in navigator) {
+        window.addEventListener('load', function() {
+            navigator.serviceWorker.register('/service-worker.js').then(function(registration) {
+                console.log('Service Worker registrado con éxito:', registration);
+            }, function(err) {
+                console.log('Fallo en el registro del Service Worker:', err);
+            });
+        });
+    }
+    
+
     // Función para guardar una nueva nota
     function saveNote() {
         const noteContent = document.getElementById('note-content');
